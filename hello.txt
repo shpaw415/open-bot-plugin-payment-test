@@ -1,0 +1,2 @@
+This file is the plugin's entire payload. It exists so the artifact endpoint
+(and its license paywall) is exercised during payment testing.

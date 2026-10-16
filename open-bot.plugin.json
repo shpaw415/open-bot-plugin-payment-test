@@ -1,0 +1,13 @@
+{
+  "$schema": "../../packages/plugin-kit/schema/open-bot.plugin.schema.json",
+  "id": "payment-test",
+  "name": "Payment Test",
+  "version": "1.0.0",
+  "description": "Throwaway $0.99 listing used to exercise the paid-plugin purchase flow end to end (checkout, webhook, license gate, refund). It does nothing useful.",
+  "author": "shpaw415",
+  "repo": "shpaw415/open-bot-plugin-payment-test",
+  "category": "utilities",
+  "tags": ["test"],
+  "files": [{ "name": "hello.txt", "source": "hello.txt", "exec": false }],
+  "pricing": { "model": "one-time", "amount": 99 }
+}
